@@ -1,0 +1,93 @@
+body
+{
+    background-color: rgb(255, 255, 255);
+}
+
+.logo
+{
+    display: flex;
+
+}
+.logo_name {
+    display: flex;
+    margin: 40px 150px;
+    width: 1000px;
+    height: 148px;
+    background: #a82db9;
+    border-radius: 50px;
+    align-items: center;
+}
+.navigation
+{
+    display: flex;
+    padding-inline-start: 70px;
+    cursor: pointer;
+     /*color: rgb(83, 11, 192);*/
+}
+.logo_photo
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0px 50px;
+}
+.li_navigation
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:23px;
+    list-style-type: none;
+    margin:0px 30px;
+}
+.main
+{
+    flex-wrap: wrap;
+}
+.banners
+{
+    margin-left: 200px;
+    width: 2000px;
+    height: 200px;
+}
+
+.banners_photo
+{
+    margin-left: 40px;
+    width: 450px;
+    height: 180px;
+    border-radius: 50px;
+}
+
+.list_store
+{
+    width: 1500px;
+    height: 800px;
+    margin-left:150px;
+}
+.text_novinki
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:50px;
+    margin:100px 700px;
+}
+.store
+{
+    display: flex;
+    
+}
+.item
+{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    width: 330px;
+    height: 300px;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+.item_price
+{
+    font-size: 30px;
+}
+.item_name
+{
+    font-size: 25px;
+}
