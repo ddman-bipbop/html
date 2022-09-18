@@ -61,18 +61,18 @@ body
 {
     width: 1500px;
     height: 800px;
-    margin-left:150px;
+    margin-left:350px;
 }
 .text_novinki
 {
     font-family: 'Courier New', Courier, monospace;
     font-size:50px;
-    margin:100px 700px;
+    margin:100px 490px;
 }
 .store
 {
     display: flex;
-    
+    flex-wrap: wrap;
 }
 .item
 {
@@ -81,7 +81,12 @@ body
     width: 330px;
     height: 300px;
     flex-direction: column;
-    margin: 0px 30px;
+    margin: 30px 30px;
+}
+.item_photo
+{
+    width: 330px;
+    height: 250px;
 }
 .item_price
 {
