@@ -11,7 +11,7 @@ body
 .logo_name {
     display: flex;
     margin: 40px 150px;
-    width: 1000px;
+    width: 635px;
     height: 148px;
     background: #cd67db;
     border-radius: 50px;
@@ -44,41 +44,11 @@ body
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-.main
-{
-    flex-wrap: wrap;
-}
-.banners
-{
-    margin-left: 200px;
-    width: 2000px;
-    height: 200px;
-}
-
-.banners_photo
-{
-    margin-left: 40px;
-    width: 450px;
-    height: 180px;
-    border-radius: 50px;
-}
-
 .list_store
 {
-    width: 1170px;
-    height: 800px;
-    margin-left:350px;
-}
-.text_novinki
-{
-    font-family: 'Courier New', Courier, monospace;
-    font-size:50px;
-    margin:150px 450px;
-}
-.store
-{
-    display: flex;
-    flex-wrap: wrap;
+    width: 200px;
+    height: 1100px;
+    margin-left: 200px;
 }
 .item
 {
@@ -101,38 +71,6 @@ body
 .item_name
 {
     font-size: 25px;
-}
-.pustota
-{
-    width: 100px;
-    height: 100px;
-}
-.text_o_kompanii
-{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 50px;
-    margin-left: 780px;
-}
-.vizitka
-{
-    display: flex;
-    margin-left: 200px;
-}
-.vizitka_text
-{
-    margin-left: 100px;
-    width: 450px;
-    height: 350px;
-    border-radius: 50px;
-    background: #cd67db;
-}
-.address_text
-{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-    color:black;
-    margin:50px 50px;
-
 }
 .support_vkladki
 {
